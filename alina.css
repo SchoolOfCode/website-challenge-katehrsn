@@ -1,6 +1,6 @@
 .nav {
     height: 100vh;
-    width: 10%;
+    width: 6%;
     position: fixed;
     z-index: 1; 
     background-color:transparent;
@@ -21,17 +21,15 @@
     font-family:cursive;
     background-color: transparent;
     color:#f7ede2;
-    font-weight: normal;
     font-size: 9vh;
     white-space: nowrap;
     overflow:hidden;
     margin: 0;
 }
 .heading-dark {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     background-color: transparent;
     color: #000000;
-    font-weight: normal;
     font-size: 9vh;
     white-space: nowrap;
     overflow:hidden;
@@ -48,9 +46,11 @@
 }
 .text-dark {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: transparent;
     color: #000000;
+    font-size: 3vh;
     margin: 0;
+    display: block;
+    padding-block-end: 2vh;
 }
 
 body {
@@ -77,6 +77,7 @@ body {
 }
 #end {
     background-color: #84a59d;
+    text-align: justify;
 }
 
 #intro-text {
@@ -88,7 +89,6 @@ body {
     text-align: justify;
     display: inline;
     position: absolute;
-
 }
 #intro-heading {
     text-align: center;
@@ -110,4 +110,69 @@ body {
     margin-bottom: 10vh;
     text-align: center;
     display: inline;
+}
+
+#cooking-text {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 9%;
+    margin-right: 50%;
+    position: absolute;
+    display: block;
+    text-align: justify;
+}
+#cooking-heading {
+    text-align: center;
+    padding-bottom: 4vh;
+    font-size: 9vh;
+}
+
+#cake-pic {
+    max-height: 100vh;
+    max-width: 100%;
+    display: inline;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#cats-heading {
+    margin: 0;
+    display: inline;
+    position:absolute;
+    z-index: 1;
+    padding-top: 10vh;
+    padding-left: 9%;
+    padding-right: 65%;
+    font-family: cursive;
+    font-size: 9vh;
+    text-align: center;
+}
+#cats-pic {
+    max-height: 100vh;
+    max-width: 100%;
+    display: inline;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#end-link {
+    text-align: center;
+    margin: 0;
+    padding-top: 30vh;
+}
+#face {
+    max-height: 20vh;
+    max-width: 20%; 
+    margin-bottom: 2vh;
+}
+#github, #github:visited {
+    color: #000000;
+    font-family: cursive;
+    font-size: 3vh;
+    font-weight: bold;
+}
+#github:hover {
+    color: #f7ede2;
 }
