@@ -1,8 +1,18 @@
+body {
+    margin: 0;
+}
+.block {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* nav bar */
 .nav {
     height: 100vh;
     width: 6%;
     position: fixed;
-    z-index: 1; 
+    z-index: 2; 
     background-color:transparent;
     overflow-x: hidden; 
     padding-top: 40vh;
@@ -17,6 +27,7 @@
     max-width: 100%;
 }
 
+/* text properties */
 .heading-light {
     font-family:cursive;
     background-color: transparent;
@@ -35,7 +46,6 @@
     overflow:hidden;
     margin: 0;
 }
-
 .text-light {
     font-family: Arial, Helvetica, sans-serif;
     color: #f7ede2;
@@ -53,16 +63,7 @@
     padding-block-end: 2vh;
 }
 
-body {
-    margin: 0;
-}
-
-.block {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
+/*div backgrounds*/
 #intro {
     background-color: #84a59d;
 }
@@ -80,6 +81,7 @@ body {
     text-align: justify;
 }
 
+/*intro page*/
 #intro-text {
     float: right;
     margin-left: 60%;
@@ -93,7 +95,6 @@ body {
 #intro-heading {
     text-align: center;
     padding-bottom: 6vh;
-    font-size: 9vh;
 }
 #intro-pic {
     max-height: 100vh;
@@ -102,23 +103,19 @@ body {
     position:absolute;
 }
 #scroll-down {
-    position: relative;
-    float: right;
-    margin-top: 80vh;
-    margin-left: 60%;
-    margin-right: 8%;
-    margin-bottom: 10vh;
     text-align: center;
-    display: inline;
+    padding-top: 6vh;
+    font-weight: bold;
 }
 
+/*cooking page*/
 #cooking-text {
     margin-top: 5vh;
     margin-bottom: 10vh;
     margin-left: 9%;
     margin-right: 50%;
     position: absolute;
-    display: block;
+    display: inline;
     text-align: justify;
 }
 #cooking-heading {
@@ -126,7 +123,6 @@ body {
     padding-bottom: 4vh;
     font-size: 9vh;
 }
-
 #cake-pic {
     max-height: 100vh;
     max-width: 100%;
@@ -136,6 +132,31 @@ body {
     bottom: 0;
 }
 
+/*earth page*/
+#planet-text {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    display: block;
+    text-align: center
+}
+#travelling-pic {
+    max-height: 100vh;
+    max-width: 100%;
+    display: inline;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#planet-heading {
+    text-align: center;
+    padding-bottom: 4vh;
+    font-size: 9vh;
+}
+
+/*cats page*/
 #cats-heading {
     margin: 0;
     display: inline;
@@ -157,6 +178,7 @@ body {
     bottom: 0;
 }
 
+/*end page*/
 #end-link {
     text-align: center;
     margin: 0;
